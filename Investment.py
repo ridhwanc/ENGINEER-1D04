@@ -10,7 +10,9 @@ x = eval(input("Please enter the principal amount of your investment:" ))
 
 apr = eval(input("Please enter the annual percentage rate:" ))
 
-for i in range(10):
+inv = eval(input("Please enter the number of years you plan to keep for investment:" ))
+
+for i in range(inv):
     x = x * (1+apr)
 
     print("The final value of your investment will be", x)

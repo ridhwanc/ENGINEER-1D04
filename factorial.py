@@ -1,6 +1,6 @@
 #factorial.py
-#  Program to compyte ethe factorial of a number
-# Illustrates for loop with an accumlator
+#Program is used to compute the factorial of any whole number
+#Illustrates for loop with an accumlator (counter)
 
 def main():
     n = input('Please enter a whole number: ')
